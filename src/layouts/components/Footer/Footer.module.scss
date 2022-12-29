@@ -1,0 +1,43 @@
+.social-map {
+  display: flex;
+  margin-top: 1.5rem;
+  flex-direction: row;
+  text-align: center;
+}
+
+footer {
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  border-top: 1px solid rgb(90, 90, 90);
+  background-color: #242424;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: var(--default-layout-footer-height)
+}
+
+.copyright {
+  font-weight: 400;
+  color: 18px;
+}
+
+.social-item, .hits {
+  margin: 4px 4px 4px 4px;
+}
+
+@media (min-width: 768px) {
+  footer {
+    padding: 20px;
+    flex-direction: row;
+    position: relative;
+  }
+  .hits {
+    margin-left: 1rem;
+  }
+}
+

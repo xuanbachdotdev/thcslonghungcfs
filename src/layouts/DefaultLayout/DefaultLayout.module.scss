@@ -1,0 +1,8 @@
+.container {
+	padding-top: var(--default-layout-header-height); 
+	min-height: calc(100vh - var(--default-layout-footer-height));
+}
+
+.header {
+	min-height: var(--default-layout-header-height);
+}

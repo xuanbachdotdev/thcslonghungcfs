@@ -1,0 +1,4 @@
+.confession {
+	min-width: 100vw;
+	min-height: calc(100vh - var(--default-layout-footer-height) - var(--default-layout-header-height));
+}
