@@ -3,7 +3,6 @@
   min-height: calc(100vh - var(--default-layout-footer-height) - var(--default-layout-header-height));
   div {
 	text-align: center;
-
   }
 }
 
@@ -22,7 +21,7 @@
 }
 .btn {
 	color: var(--white);
-	margin: 10px;
+	// margin: 10px;
 }
 
 @media (max-width: 768px) {
@@ -30,4 +29,11 @@
 		font-size: 40px;
 		padding: 0px 10px 0px 10px;
 	}
+}
+
+.wrapper > div > a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
 }

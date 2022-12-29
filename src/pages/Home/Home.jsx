@@ -17,7 +17,9 @@ function Home() {
         <Button className={cx("btn")} large>
           <Link to={"/confession"}>Gửi ngay 📄✈ 📄🛫</Link>
         </Button>
+	  <a href="https://hits.sh/thcslonghungcfs.vercel.app/"><img alt="Hits" src="https://hits.sh/thcslonghungcfs.vercel.app.svg"/></a>
       </div>
+	
     </div>
   );
 }
