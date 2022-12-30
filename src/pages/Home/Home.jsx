@@ -7,20 +7,7 @@ import styles from "./Home.module.scss";
 const cx = classNames.bind(styles);
 
 function Home() {
-  function authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 1000)); // 2 seconds
-  }
-  authenticate().then(() => {
-    const ele = document.getElementById('ipl-progress-indicator')
-    if (ele) {
-      // fade out
-      ele.classList.add('available')
-      setTimeout(() => {
-        // remove from DOM
-        ele.outerHTML = ''
-      }, 2000)
-    }
-  })
+  
   return (
     <div className={cx("wrapper")}>
       <ImageSlide />
