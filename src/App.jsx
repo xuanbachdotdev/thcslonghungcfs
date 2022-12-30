@@ -4,20 +4,7 @@ import { publicRoutes } from "./routes/index";
 import DefaultLayout from "./layouts/DefaultLayout/DefaultLayout";
 
 function App() {
-  function authenticate() {
-    return new Promise((resolve) => setTimeout(resolve, 500)); // 2 seconds
-  }
-  authenticate().then(() => {
-      const ele = document.getElementById('ipl-progress-indicator')
-      if(ele){
-        // fade out
-        ele.classList.add('available')
-        setTimeout(() => {
-          // remove from DOM
-          ele.outerHTML = ''
-        }, 2000)
-      }
-    })
+
   return (
     <Router forceRefresh={true}>
       <div className="App">
